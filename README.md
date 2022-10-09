@@ -1,2 +1,2 @@
 # Estruturadedados
-estrutura de dados em C IFPI
+Estrutura de dados em C Instituto Federal
