@@ -9,7 +9,7 @@ int main() {
     int ms;
     float kmh;
 
-    printf("km/h: ");
+    printf("m/s: ");
     scanf("%d", &ms);
 
     kmh = ms * 3.6;
