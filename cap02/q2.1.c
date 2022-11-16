@@ -6,7 +6,7 @@
 #include "../Pilha/pilha1.h"
 
 
-//SaÌda: n possui um tipo de argumento un·rio inv·lido
+//Sa√≠da: n possui um tipo de argumento un√°rio inv√°lido(stack overflow
 
 int main(void){
     Pilha p = pilha(3);
