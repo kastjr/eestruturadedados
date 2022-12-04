@@ -26,3 +26,4 @@ main() {
     add_last(1, lista);
 
 	printf("%d\n", ocurrences(1, lista)); // 3
+}
