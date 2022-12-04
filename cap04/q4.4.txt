@@ -1,0 +1,24 @@
+4.4)
+
+resposta: Nos processos que são executados
+aqueles que demoram mais de 3 segundos retornam ao fim da 
+fila por excederem o tempo, isso de acordo com sua ordem de
+processamento como:
+
+
+17-> 1-primeiro processo onde , 7-tempo de execução, 4 segundos a mais
+25-> 2-segundo processo onde , 5-tempo de execução, 2 segundos a mais
+39-> 3-terceiro processo onde , 9-tempo de execução, 6 segundos a mais
+46-> 4-quarto processo onde , 6-tempo de execução, 3 segundos a mais
+
+1º processo
+17 -> 25 -> 39 -> 46;
+
+2º processo
+25 -> 39 -> 46 -> 14;
+
+3º processo
+39 -> 46 -> 14 -> 22;
+
+4º processo
+46 -> 14 -> 22 -> 36;
